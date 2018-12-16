@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # app
 
 ## Project setup
@@ -37,3 +38,7 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# test-front
+workshop front end test
+>>>>>>> 6c06e5416ef3f9715845cc5b9014d40e4dc6c8b9
