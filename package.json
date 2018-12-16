@@ -6,8 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "e2eTest": "vue-cli-service test:e2e",
+    "unitTest": "vue-cli-service test:unit --watch"
+  },  
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -25,6 +28,7 @@
     "chai": "^4.1.2",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "sinon-chai": "^3.3.0",
     "vue-template-compiler": "^2.5.17"
   }
 }
