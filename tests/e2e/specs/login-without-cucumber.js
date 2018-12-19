@@ -53,6 +53,8 @@ describe('view login e2e test', () => {
       cy.get('[data-qa="submitButton"]').click();
       cy.get('[data-qa="msgError"]').should('not.to.be.visible');
       cy.url().should('contain', 'userLogged');
+      /* Podemos sacar imágenes del proceso */
+      cy.screenshot('go-to-viewLogin', {capture: 'runner'});
     });
 
     /* Luego los errores */

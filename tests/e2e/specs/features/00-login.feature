@@ -30,7 +30,7 @@ Feature: Login
     And click submit button
     Then message error should be display with text Different!
 
-  # Ojo, antipattern, solo lo utilizo para mostrar las Datatables.
+  # Ojo, antipattern, solo lo utilizo para mostrar los Scenario Outline y las Datatables.
   # Las pruebas de input name vacío y input contraseña vacío deberían
   # ir en sendos test
   # @focus
